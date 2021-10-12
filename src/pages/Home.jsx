@@ -1,10 +1,10 @@
-import ExtensionDropdown from '@/components/ExtenstionDropdown';
+import Hero from '@/components/Hero';
 import React from 'react';
 
 export default function Home() {
   return (
-    <>
-      <ExtensionDropdown></ExtensionDropdown>
-    </>
+    <div className='container w-4/5 mx-auto'>
+      <Hero />
+    </div>
   );
 }

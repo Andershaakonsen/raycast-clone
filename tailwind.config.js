@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
+      fontSize: {
+        headline: '5rem',
+      },
       colors: {
         primary: {
           400: '#00E0F3',
