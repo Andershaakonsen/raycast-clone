@@ -8,7 +8,7 @@ import { MdOutlineDesignServices } from 'react-icons/md';
 
 const CardList = () => {
   return (
-    <div>
+    <div className='mb-28'>
       <div className='flex flex-col items-center  mx-auto'>
         <h2 className='text-3xl md:text-5xl'>
           More focus <span className='text-gray-600'>,less clutter.</span>

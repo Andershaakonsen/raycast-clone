@@ -10,8 +10,9 @@ import { BiChevronDown } from 'react-icons/bi';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  /* md:max-w-screen-lg */
   return (
-    <header className='h-14  sticky mx-auto container flex justify-between items-center px-2 top-0 z-50 bg-black md:max-w-screen-lg md:mt-4'>
+    <header className='h-14  sticky mx-auto container flex justify-between items-center px-2 md:px-40 top-0 z-50 bg-black w-full md:mt-4 opacity-90'>
       <Link to='/' className='w-1/6'>
         <div className='flex items-center'>
           <IoLogoFoursquare

@@ -106,7 +106,6 @@ export default function Home() {
       </div>
 
       <CardList />
-      <p className='mt-96'>Bottom!</p>
     </div>
   );
 }
