@@ -13,6 +13,7 @@ import {
 } from 'react-icons/fc';
 import { BsGithub } from 'react-icons/bs';
 import { BiRightArrowAlt } from 'react-icons/bi';
+import CardList from '@/components/CardList';
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
 
       {/* After hero */}
 
-      <div className='h-screen w-full'>
+      <div className='h-screen w-full mb-40'>
         <div className='flex flex-col mx-auto items-center mt-60 max-w-lg'>
           <h3 className='text-5xl text-center'>Turn on superpowers</h3>
           <p className='mt-6 max-w-xl text-center text-lg text-gray-600'>
@@ -97,7 +98,15 @@ export default function Home() {
             />
           </div>
         </div>
+
+        <div className='flex justify-center font-thin items-center mt-4 hover:ml-2 hover:cursor-pointer'>
+          <p className='text-lg'>Miss something? Build it yourself</p>
+          <BiRightArrowAlt size='1.5rem' />
+        </div>
       </div>
+
+      <CardList />
+      <p className='mt-96'>Bottom!</p>
     </div>
   );
 }
