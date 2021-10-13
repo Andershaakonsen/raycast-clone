@@ -10,7 +10,7 @@ const CardList = () => {
   return (
     <div>
       <div className='flex flex-col items-center  mx-auto'>
-        <h2 className='text-5xl'>
+        <h2 className='text-3xl md:text-5xl'>
           More focus <span className='text-gray-600'>,less clutter.</span>
         </h2>
         <p className='max-w-lg text-center mt-6 text-lg text-gray-600'>
@@ -32,7 +32,7 @@ const CardList = () => {
             text='No login is required to use Raycast. Everything is stored encrypted on your local disk and nothing sensitive is tracked. You and your data stay anonymous.'
           />
         </div>
-        <div className='md:flex md:justify-between'>
+        <div className='md:flex md:justify-between md:mt-4'>
           <Card
             icon={<BsTerminal size='3rem' className='text-red-800' />}
             headline='Learn once, control everything'

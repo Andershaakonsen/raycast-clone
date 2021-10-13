@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='mt-40 flex flex-col items-center'>
       <div className='flex flex-col items-center max-w-3xl '>
-        <h1 className='text-headline text-center'>
+        <h1 className='text-5xl md:text-headline text-center'>
           Level up your productivity{' '}
         </h1>
         <p className='mt-8 text-xl text-gray-500 text-center'>
