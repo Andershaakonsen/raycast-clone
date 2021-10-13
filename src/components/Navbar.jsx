@@ -24,22 +24,38 @@ const Navbar = () => {
 
       <nav className=' w-4/6 px-20 hidden md:block '>
         <ul className='flex items-center justify-between h-full'>
-          <li className='text-md text-gray-400'>Features</li>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+            Features
+          </li>
           <ExtensionDropdown>
-            <li className='text-md text-gray-400 flex items-center'>
+            <li className='text-md text-gray-400 flex items-center hover:text-gray-200 hover:cursor-pointer'>
               Extensions <BiChevronDown />
             </li>
           </ExtensionDropdown>
-          <li className='text-md text-gray-400'>Manifesto</li>
-          <li className='text-md text-gray-400'>Changelog</li>
-          <li className='text-md text-gray-400'>Blog</li>
-          <li className='text-md text-gray-400'>Jobs</li>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+            Manifesto
+          </li>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+            Changelog
+          </li>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+            Blog
+          </li>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+            Jobs
+          </li>
         </ul>
       </nav>
 
       <div className='hidden w-1/6 justify-end md:flex'>
-        <BsTwitter size='1.5rem' />
-        <BsGithub size='1.5rem' className='ml-4' />
+        <BsTwitter
+          size='1.5rem'
+          className='hover:text-gray-400 hover:cursor-pointer'
+        />
+        <BsGithub
+          size='1.5rem'
+          className='ml-4 hover:text-gray-400 hover:cursor-pointer'
+        />
       </div>
 
       {/* MOBILE  */}

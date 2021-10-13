@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Hero = () => {
   return (
-    <div className='mt-40 flex flex-col items-center h-screen'>
+    <div className='mt-40 flex flex-col items-center'>
       <div className='flex flex-col items-center max-w-3xl '>
         <h1 className='text-headline text-center'>
           Level up your productivity{' '}
