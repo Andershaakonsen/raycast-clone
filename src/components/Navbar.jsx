@@ -12,7 +12,7 @@ const Navbar = () => {
 
   /* md:max-w-screen-lg */
   return (
-    <header className='h-14  sticky mx-auto container flex justify-between items-center px-2 md:px-40 top-0 z-50 bg-black w-full md:mt-4 opacity-90'>
+    <header className='h-14  sticky mx-auto container flex justify-between items-center px-2 lg:px-40 sm:px-0 top-0 z-50 bg-black w-full md:mt-4 opacity-90'>
       <Link to='/' className='w-1/6'>
         <div className='flex items-center'>
           <IoLogoFoursquare
@@ -23,26 +23,26 @@ const Navbar = () => {
         </div>
       </Link>
 
-      <nav className=' w-4/6 px-20 hidden md:block '>
+      <nav className=' w-4/6 hidden md:block xl:px-16 '>
         <ul className='flex items-center justify-between h-full'>
-          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer  px-2'>
             Features
           </li>
           <ExtensionDropdown>
-            <li className='text-md text-gray-400 flex items-center hover:text-gray-200 hover:cursor-pointer'>
+            <li className='text-md text-gray-400 flex items-center hover:text-gray-200 hover:cursor-pointer px-2'>
               Extensions <BiChevronDown />
             </li>
           </ExtensionDropdown>
-          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer px-2'>
             Manifesto
           </li>
-          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer px-2'>
             Changelog
           </li>
-          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer px-2'>
             Blog
           </li>
-          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer'>
+          <li className='text-md text-gray-400 hover:text-gray-200 hover:cursor-pointer px-2'>
             Jobs
           </li>
         </ul>

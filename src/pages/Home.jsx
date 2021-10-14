@@ -90,7 +90,7 @@ export default function Home() {
               <BiRightArrowAlt size='2rem' className=' text-red-400' />
             </div>
           </div>
-          <div className='md:w-1/2 md:h-full gradient'>
+          <div className='md:w-1/2 md:h-full bg-gradient-to-r from-blue-900 to-pink-800 '>
             <img
               src='https://www.raycast.com/superpowers/screenshot-github.png'
               alt='github screenshot'
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='flex justify-center font-thin items-center mt-4 hover:ml-2 hover:cursor-pointer'>
+        <div className='flex justify-center font-thin items-center mt-6 hover:ml-2 hover:cursor-pointer'>
           <p className='text-lg'>Miss something? Build it yourself</p>
           <BiRightArrowAlt size='1.5rem' />
         </div>
